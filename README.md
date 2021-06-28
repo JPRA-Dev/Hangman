@@ -1,2 +1,2 @@
 # Hangman
-My Repository for the Hagnman game for the course of Web Development @BeCode
+My Repository for the Hangman game for the course of Web Development @BeCode
