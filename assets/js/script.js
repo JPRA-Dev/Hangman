@@ -1,4 +1,4 @@
-//create array of words
+/*//create array of words
 var words = ["javascript", "html", "github", "google"]
 
 //pick a ramdom word
@@ -47,4 +47,109 @@ while (remainingLetters > 0) {
 alert(answerArray.join(" "));
 
 //congratulate
-alert("Good Job! The secret word was " + word);
+alert("Good Job! The secret word was " + word);*/
+
+
+/*document.getElementById("button").addEventListener('click', () => {
+switch (new letter()) {
+    case  "A":
+        lettersInput = "A";
+        console.log("A");
+        break;
+    case  "B":
+        lettersInput = "B";
+        console.log("B");
+        break;          
+    }
+
+});*/
+[...document.getElementsByTagName("button")].forEach(function(item) {
+    // adding eventListener to the elements
+    item.addEventListener('click', function() {
+      // calling the methods
+      // this.id will be the id of the clicked button
+      // there is a method in the object by same name, which will be trigger
+      obj[this.id]();
+    })
+  })
+
+var obj = {
+    A: function() {
+        console.log('A')
+    },
+    B: function() {
+        console.log('B')
+    },
+    C: function() {
+        console.log('C')
+    },
+    D: function() {
+        console.log('D')
+    },
+    E: function() {
+        console.log('E')
+    },
+    F: function() {
+        console.log('F')
+    },
+    G: function() {
+        console.log('G')
+    },
+    H: function() {
+        console.log('H')
+    },
+    I: function() {
+        console.log('I')
+    },
+    J: function() {
+        console.log('J')
+    },
+    K: function() {
+        console.log('K')
+    },
+    L: function() {
+        console.log('L')
+    },
+    M: function() {
+        console.log('M')
+    },
+    N: function() {
+        console.log('N')
+    },
+    O: function() {
+        console.log('O')
+    },
+    P: function() {
+        console.log('P')
+    },
+    Q: function() {
+        console.log('Q')
+    },
+    R: function() {
+        console.log('R')
+    },
+    S: function() {
+        console.log('S')
+    },
+    T: function() {
+        console.log('T')
+    },
+    U: function() {
+        console.log('U')
+    },
+    V: function() {
+        console.log('V')
+    },
+    W: function() {
+        console.log('W')
+    },
+    X: function() {
+        console.log('X')
+    },
+    Y: function() {
+        console.log('Y')
+    },
+    Z: function() {
+        console.log('Z')
+    }
+}
