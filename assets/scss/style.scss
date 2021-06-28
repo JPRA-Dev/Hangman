@@ -1,0 +1,23 @@
+.letters {
+	display: grid;
+	grid-template-columns: 500px;
+	grid-template-rows: repeat(2, 30px);
+    
+} 
+
+#firstLetters {
+    text-align: justify;
+    align-self: center;
+    justify-self: center;
+}
+
+#secondLetters {
+    text-align: justify;
+    align-self: center;
+    justify-self: center;
+}
+
+body {
+    background-color: beige;
+}
+

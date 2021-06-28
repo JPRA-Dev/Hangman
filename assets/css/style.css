@@ -1,0 +1,31 @@
+.letters {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 500px;
+      grid-template-columns: 500px;
+  -ms-grid-rows: (30px)[2];
+      grid-template-rows: repeat(2, 30px);
+}
+
+#firstLetters {
+  text-align: justify;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+#secondLetters {
+  text-align: justify;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+body {
+  background-color: beige;
+}
+/*# sourceMappingURL=style.css.map */
