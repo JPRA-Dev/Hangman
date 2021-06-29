@@ -5,52 +5,50 @@
         <title>HangMan Game</title>
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
-        <link rel="stylesheet" href="assets/css/reset.css" />
+      <!--   <link rel="stylesheet" href="assets/css/reset.css" /> -->
         <link rel="stylesheet" href="assets/css/style.css" />
     </head>
     <body>
-        <section class="mainBox">
-        <h1>Hangman</h1>
-        <h2>Web Developper Edition</h2> 
-        <p>Use the alphabet below to guess the word, or click hint to get a clue.</p>
-
-        <main class="content">
-            <section class="letters">
-                <div id="firstLetters">
-                    <button type="button" id="A">A</button>
-                    <button type="button" id="B">B</button>
-                    <button type="button" id="C">C</button>
-                    <button type="button" id="D">D</button>
-                    <button type="button" id="E">E</button>
-                    <button type="button" id="F">F</button>
-                    <button type="button" id="G">G</button>
-                    <button type="button" id="H">H</button>
-                    <button type="button" id="I">I</button>
-                    <button type="button" id="J">J</button>
-                    <button type="button" id="K">K</button>
-                    <button type="button" id="L">L</button>
-                    <button type="button" id="M">M</button>
-                </div>
-                <div id="secondLetters">
-                    <button type="button" id="N">N</button>
-                    <button type="button" id="O">O</button>
-                    <button type="button" id="P">P</button>
-                    <button type="button" id="Q">Q</button>
-                    <button type="button" id="R">R</button>
-                    <button type="button" id="S">S</button>
-                    <button type="button" id="T">T</button>
-                    <button type="button" id="U">U</button>
-                    <button type="button" id="V">V</button>
-                    <button type="button" id="W">W</button>
-                    <button type="button" id="X">X</button>
-                    <button type="button" id="Y">Y</button>
-                    <button type="button" id="Z">Z</button>
-                </div>
+        <h1> Teemo's Challenge!</h1>
+        <h2> A League of Legends Hangman Game</h2>
     
-
-
-
-            </section>
-        <script src="assets/js/script.js"></script>
+        <div class="container" id="introduction">
+            <button type='button' id="InstructionsButton" onclick="toggleText()">Click for instructions</button>
+            <p id="instructions">You wandered into a dark cave, where Teemo lied in wait. He challenges you to a game: <br/>
+            "<i><b>Name the champion</b> from League Of Legends I'm thinking of, or I shall devour your soul!<br/>
+            <b>Tell me a letter!</b> If the letter is in the name, I shall tell you where. If not, I will start revealing my true form!<br/>
+            I hope for your sake that you'll guess the word before 6 wrong tries...</i>"<br/>
+            </p>
+    
+        </div>
+    
+        <div class="container" id="game">
+    
+            <div class="WrongLetters" id="WrongLetters">
+                    You already tried :
+            </div>
+    
+            <div class="RightLetters" id="RightLetters">
+                    The word is :
+            </div>
+    
+            <div class="hangman" id="hangman">
+                <img src="https://github.com/FrankZiWANG-dev/Hangman/blob/main/Assets/1.png?raw=true" id="1" alt="Teemo-stage-1">
+                <img src="https://github.com/FrankZiWANG-dev/Hangman/blob/main/Assets/2.png?raw=true" id="2" alt="Teemo-stage-2">
+                <img src="https://github.com/FrankZiWANG-dev/Hangman/blob/main/Assets/3.png?raw=true" id="3" alt="Teemo-stage-3">
+                <img src="https://github.com/FrankZiWANG-dev/Hangman/blob/main/Assets/4.png?raw=true" id="4" alt="Teemo-stage-4">
+                <img src="https://github.com/FrankZiWANG-dev/Hangman/blob/main/Assets/5.png?raw=true" id="5" alt="Teemo-stage-5">
+                <img src="https://github.com/FrankZiWANG-dev/Hangman/blob/main/Assets/6.png?raw=true" id="6" alt="Teemo-stage-6">
+                
+            </div>
+    
+            <div class="input" id="input">
+                    <label for="InputText">Enter a letter to guess! </label> <br/>
+                    <input type="text" onfocus="this.value=''" class="InputText" id="InputText"><br/>
+                    <button type="button" class="try" id="try"> Try! </button>
+            </div>
+    
+        </div>
+        <script type="text/javascript" src="assets/js/script.js"></script>
     </body>
     </html>

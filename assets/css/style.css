@@ -6,6 +6,17 @@
   margin-right: auto;
 }
 
+img {
+  display: none;
+  text-align: center;
+  max-height: 300px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .letters {
   display: -ms-grid;
   display: grid;
