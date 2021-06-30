@@ -1,0 +1,42 @@
+.mainBox {
+    display: block;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    display: none; //block if i want to see if it is ok
+    text-align: center;
+    max-height: 300px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+.letters {
+	display: grid;
+	grid-template-columns: 500px;
+	grid-template-rows: repeat(2, 30px);
+    
+} 
+
+#firstLetters {
+    text-align: justify;
+    align-self: center;
+    justify-self: center;
+}
+
+#secondLetters {
+    text-align: justify;
+    align-self: center;
+    justify-self: center;
+}
+
+body {
+    background-color: beige;
+}
+

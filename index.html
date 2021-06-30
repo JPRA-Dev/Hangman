@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>HangMan Game</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+      <!--   <link rel="stylesheet" href="assets/css/reset.css" /> -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <section class="mainBox">
+        <h1>THE HANGMAN GAME</h1>
+        <h2>Web Developper Edition</h2> 
+        
+        <div class="mainImage">
+            <img id="img1" src="assets/images/hangman1.png"/>
+            <img id="img2" src="assets/images/hangman2.png"/>
+            <img id="img3" src="assets/images/hangman3.png"/>
+            <img id="img4" src="assets/images/hangman4.png"/>
+            <img id="img5" src="assets/images/hangman5.png"/>
+            <img id="img6" src="assets/images/hangman6.png"/>
+            <img id="img7" src="assets/images/hangman7.png"/>
+        </div>
+
+        <div>
+            <button type='button' id="instructionsButton">Click for instructions</button>
+            <h3 id="instructions">Enter a letter in the box bellow and click try to guess the word, or click hint to get a clue.</h3>
+        </div> 
+        <div>
+            <button type='button' id="hintButton">HINT</button>
+            <h4 id="CSS">The language we use to style an HTML document.</h4>
+            <h4 id="JAVASCRIPT">The world's most popular programming language of the Web.</h4>
+            <h4 id="HTML">The standard markup language for Web pages.</h4>
+            <h4 id="GITHUB">A provider of Internet hosting for software development.</h4>
+
+        </div>
+    
+
+
+
+    <!-- <div class="container" id="introduction">
+        <button type='button' id="InstructionsButton" onclick="toggleText()">Click for instructions</button>
+        <p id="instructions">Add letters one by one in the box and try to figure out the right word!</p>
+    </div> -->
+
+    
+    
+
+        <div class="container" id="game">
+    
+            <div class="WrongLetters" id="WrongLetters">
+                    You already tried :
+            </div>
+    
+            <div class="RightLetters" id="RightLetters">
+                    The word is :
+            </div>
+    
+            <div class="input" id="input">
+                    <label for="InputText">Enter a letter to guess! </label> <br/>
+                    <input type="text" onfocus="this.value=''" class="InputText" id="InputText"><br/>
+                    <button type="button" class="try" id="try"> Try! </button>
+            </div>
+    
+        </div>
+
+        <input type="button" value="Reset Game" onClick="location.href=location.href">
+    </section>
+
+<!--         <section class="letters">
+            <div id="inputLetters">
+                <button type="button" class ="try" id="A">A</button>
+                <button type="button" class ="try" id="B">B</button>
+                <button type="button" class ="try" id="C">C</button>
+                <button type="button" class ="try" id="D">D</button>
+                <button type="button" class ="try" id="E">E</button>
+                <button type="button" class ="try" id="F">F</button>
+                <button type="button" class ="try" id="G">G</button>
+                <button type="button" class ="try" id="H">H</button>
+                <button type="button" class ="try" id="I">I</button>
+                <button type="button" class ="try" id="J">J</button>
+                <button type="button" class ="try" id="K">K</button>
+                <button type="button" class ="try" id="L">L</button>
+                <button type="button" class ="try" id="M">M</button>
+                <button type="button" class ="try" id="N">N</button>
+                <button type="button" class ="try" id="O">O</button>
+                <button type="button" class ="try" id="P">P</button>
+                <button type="button" class ="try" id="Q">Q</button>
+                <button type="button" class ="try" id="R">R</button>
+                <button type="button" class ="try" id="S">S</button>
+                <button type="button" class ="try" id="T">T</button>
+                <button type="button" class ="try" id="U">U</button>
+                <button type="button" class ="try" id="V">V</button>
+                <button type="button" class ="try" id="W">W</button>
+                <button type="button" class ="try" id="X">X</button>
+                <button type="button" class ="try" id="Y">Y</button>
+                <button type="button" class ="try" id="Z">Z</button>
+            </div>
+            </section> -->
+
+        <script type="text/javascript" src="assets/js/script.js"></script>
+    </body>
+    </html>
