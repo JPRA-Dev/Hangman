@@ -1,5 +1,6 @@
 # Hangman
 My Repository for the Hangman game for the course of Web Development @BeCode
+
 [![forthebadge](https://img.shields.io/badge/USES-HTML-blue)
 [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
