@@ -6,7 +6,7 @@
 
 
 # My version of the "Hangman Game"
-JAVASCRIPT DATAVISUALISATION CHALLENGE
+WEB DEVELOPER EDITION
 
 
 ## General informations 
