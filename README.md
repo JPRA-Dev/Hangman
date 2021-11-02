@@ -17,6 +17,9 @@ Description : "Hangman Game" - Web Developper edition.
 ## Author
 João Andrade => Junior Developer @Becore.org
 
+## Link
+https://jpra-dev.github.io/Hangman/
+
 
 ## Functionalities
 - Gets info from user;
